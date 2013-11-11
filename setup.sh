@@ -2,7 +2,7 @@
 
 set -e
 
-for f in `git ls-files | grep -v README.md`; do
+for f in `git ls-files | grep '^\.'`; do
     if [ -L ../$f ]; then
         rm -f ../$f
     elif [ -f ../$f ]; then
