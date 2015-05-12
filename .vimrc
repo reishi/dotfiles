@@ -7,3 +7,4 @@ set expandtab
 set shiftwidth=4
 set nowrap
 imap jj <esc>
+set guifont=Andale\ Mono:h14
